@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> 프렌 </title>
+        <style>
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 45px;
+                text-align: center;
+            }
+            h2 {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                padding: 100px;
+                text-align: center;
+            }
+            a {
+                text-decoration: none;
+            }
+
+            li{display: inline-block;}
+            .header {
+                height: 200px;
+            }
+
+            .location {
+                display: flex;
+                justify-content: flex-end;
+                font-size: 15px;
+            }
+            
+            .location a {
+                color:black;
+                padding: 10px;
+            }
+            .menu {
+                display: flex;
+                background: #94a08d;
+                justify-content: space-evenly;
+                font-weight: 900;
+                font-size: 15pt;
+            }
+            
+            .menu a {
+                color: white;
+                padding: 50px;
+                text-decoration: none;
+                text-align: center;
+            }
+
+            .menu a:hover {
+                background-color: white;
+                color:  #4a5945;
+            }
+
+            .history,
+            .ceo,
+            .com {
+                display: flex;
+                width: 150px;
+                background: #94a08d;
+                font-size: 15pt;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 600;
+            }
+
+            .story {
+                display:flex;
+                flex-direction: column;
+                float: left;
+                margin-right:370px;
+            }
+
+            .story a {
+                color: white;
+                padding: 33px;
+                text-decoration: none;
+                text-align: center;
+            }
+
+            .story a:hover {
+                background-color: white;
+                color:  #4a5945;
+            }
+
+            .pic {
+                float: left;
+                margin-right:270px;
+                margin-top: 150px;
+                margin-bottom: 200px;
+            }
+
+            .con {
+                float: left;
+                margin-top: 210px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif
+            }
+
+            .footer {
+                height: 60;
+                margin-top: 50px;
+                text-align: center;
+                color: black;
+                float: left;
+                margin-left: 650px;
+            }
+            .duce {
+                float: left;
+                margin-bottom: 200px;
+            }
+
+            .his {
+                float: left;
+                margin-bottom: 200px;
+                margin-left: 260px;
+            }
+
+            @media screen and (max-width: 1000px) {
+            .best,
+            body {
+                flex-direction: column;
+              }
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="location">
+                <ul>
+                    <li><div><a href="">로그인</a></div></li>
+                    <li><div><a href="">회원가입</a></div></li>
+                </ul>
+            </div>
+            <a href=""><h1 style="color: #4a5945;">FReN</h1></a>
+        </div>
+
+        <div class="menu">
+                    <a href="">스토리</a>
+
+                    <a href="">이용방법</a>
+
+                    <a href="">작품보기</a>
+
+                    <a href="">작품쓰기</a>
+
+                    <a href="">마이페이지</a>
+
+                    <a href="">고객센터</a>
+
+        </div>
+        <br>
+            <div class="story">
+                <div class="ceo">
+                    <a href="">대표 소개</a>
+                </div>
+        
+                <div class="com">
+                    <a href="#hello">회사 소개</a>
+                </div>
+        
+                <div class="history">
+                    <a href="#his">회사 역사</a>
+                </div>
+            </div>
+
+        
+
+            <div class="contents">
+                <div class="pic">
+                    <img src="사진7.png">
+                </div>
+                <div class="con">
+                    <p>안녕하십니까. 프렌의 대표 오하은입니다.</p>
+                    <p>프렌을 창립한 지 어느덧 10년이 지났습니다.</p>
+                    <p>프렌은 창립 이후로 끊임없이 달려왔는데요.</p>
+                    <p>지금의 프렌이 있기까지 도움을 주신 모든 분들께 감사드립니다.</p>
+                    <p>또한 이 사이트를 꾸준히 이용해주시는 분들께도 감사인사 전합니다.</p>
+                    <p>앞으로도 프렌은 작가들의 정당한 보상을 위해</p>
+                    <p>물심양면으로 나설 것을 약속드립니다.</p>
+                    <p>앞으로도 프렌을 응원해주시면 감사하겠습니다.</p>
+                    <p>지금까지 프렌 대표 오하은이었습니다.</p>
+                    <p>진심으로 감사드립니다.</p>
+                </div>
+            </div>
+
+
+        <center>
+        <div class="duce">
+            <article id="hello">
+                <h2 style="color: #4a5945;">회사 소개</h2>
+                <img src="사진2.jpg" width="1500" height="800">
+                <img src="사진3.jpg" width="1500" height="800">
+                <img src="사진4.jpg" width="1500" height="800">
+                <img src="사진5.jpg" width="1500" height="800">
+            </article> 
+            </div>
+        </center>
+        
+        <center>
+            <div class="his">
+                <article id="his">
+                    <h2 style="color: #4a5945;">회사 역사</h2>
+                    <img src="사진6.jpg" width="1500" height="800">
+                </article>
+                </div>
+            </article>
+        </center>
+
+        <div class ="footer"> 
+            <br>
+            <P> &copy; 2020 프렌 </P>
+            <p>서울시 강남구 역삼동 702-28 어반벤치빌딩 10층(테헤란로 325) </p>
+            <p>프렘 (주) 대표 오하은 사업자등록번호 120-87-27435 통신판매업신고 제 2009-서울강남 35-02139호</p>
+            <br>
+        </div>
+
+
+
+    </body>
+</html>
